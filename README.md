@@ -78,6 +78,15 @@ Javascript library is not build to be used with a single page application. So I 
 at this time.
 
 
+Game plan if that issue would be resolved
+-----------------------------------------
+
+1. Add order endpoint (that accepts cpuId, memId, hddId, laptopId and the payment token)
+1. Store order in database
+1. Call Payfirma server to server code to initialize payment
+1. Add UI to display Orders
+
+
 Basic code structure
 --------------------
 
